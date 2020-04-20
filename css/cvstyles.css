@@ -1,0 +1,108 @@
+body {
+  background-color: #EAF6F6;
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 50px auto;
+}
+
+h1 {
+  color: #66BFBF;
+  display: inline;
+  position: relative;
+  right: 40px;
+}
+
+h2 {
+  color: #66BFBF;
+  text-align: center;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.profile-pic {
+  float: left;
+  margin: auto 10px;
+}
+
+table {
+  table-layout: fixed;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #66bfbf;
+  color: white;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  text-align: center;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.cdac-project {
+  width: 15%;
+  position: relative;
+  left: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.engg-project {
+  width: 15%;
+  position: relative;
+  left: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.pro {
+  width: 100%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+}
+
+.propara {
+  width: 50%;
+  margin: auto;
+}
